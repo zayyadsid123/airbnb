@@ -1,4 +1,5 @@
 -- Can I see the AirBnb URL for all rentals that can accommodate my group of 16?
+select url,accommodates from listings where accommodates>=16
 
 -- +---------------------------------------+--------------+
 -- | https://www.airbnb.com/rooms/1321332  | 16           |
